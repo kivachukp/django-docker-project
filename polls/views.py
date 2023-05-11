@@ -3,6 +3,7 @@ from django.http import HttpResponse
 
 
 def index(request):
+    # return render_template('main.html')
     return HttpResponse("Hello World, вы в polls")
 
 
