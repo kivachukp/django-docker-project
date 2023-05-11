@@ -15,4 +15,4 @@ COPY . .
 # первая точка - копирует все папки и файлы находящиеся в директории с Dockerfile
 # вторая точка - копирует в корневую папку, чтобы закинуло в нужную нужно прописать name/
 
-CMD [ "python", "./your-daemon-or-script.py" ]
+CMD [ "python", "djangodocker/your-deamon-or-script.py" ]
